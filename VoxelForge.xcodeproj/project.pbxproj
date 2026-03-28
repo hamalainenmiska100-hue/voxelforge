@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+	A000001A0000000000000001 /* VoxelForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000001 /* VoxelForgeApp.swift */; };
+	A000001A0000000000000002 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000002 /* MainMenuView.swift */; };
+	A000001A0000000000000003 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000003 /* GameView.swift */; };
+	A000001A0000000000000004 /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000004 /* BlockType.swift */; };
+	A000001A0000000000000005 /* ChunkCoord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000005 /* ChunkCoord.swift */; };
+	A000001A0000000000000006 /* Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000006 /* Chunk.swift */; };
+	A000001A0000000000000007 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000007 /* World.swift */; };
+	A000001A0000000000000008 /* ChunkMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000008 /* ChunkMesh.swift */; };
+	A000001A0000000000000009 /* ChunkMesher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000009 /* ChunkMesher.swift */; };
+	A000001A0000000000000010 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000010 /* Math.swift */; };
+	A000001A0000000000000011 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000011 /* Player.swift */; };
+	A000001A0000000000000012 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000012 /* GameState.swift */; };
+	A000001A0000000000000013 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000013 /* Renderer.swift */; };
+	A000001A0000000000000014 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000014 /* Shaders.metal */; };
+	A000001A0000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A000010A0000000000000015 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+	A000000A0000000000000001 /* VoxelForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxelForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+	A000010A0000000000000001 /* VoxelForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxelForgeApp.swift; sourceTree = "<group>"; };
+	A000010A0000000000000002 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+	A000010A0000000000000003 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+	A000010A0000000000000004 /* BlockType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockType.swift; sourceTree = "<group>"; };
+	A000010A0000000000000005 /* ChunkCoord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkCoord.swift; sourceTree = "<group>"; };
+	A000010A0000000000000006 /* Chunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chunk.swift; sourceTree = "<group>"; };
+	A000010A0000000000000007 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+	A000010A0000000000000008 /* ChunkMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkMesh.swift; sourceTree = "<group>"; };
+	A000010A0000000000000009 /* ChunkMesher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkMesher.swift; sourceTree = "<group>"; };
+	A000010A0000000000000010 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+	A000010A0000000000000011 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+	A000010A0000000000000012 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+	A000010A0000000000000013 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+	A000010A0000000000000014 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+	A000010A0000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+	A000010A0000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+	A000010A0000000000000017 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+	A000002A0000000000000001 /* Frameworks */ = {
+		isa = PBXFrameworksBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+	A000003A0000000000000001 = {
+		isa = PBXGroup;
+		children = (
+			A000003A0000000000000002 /* VoxelForge */,
+			A000003A0000000000000003 /* Products */,
+		);
+		sourceTree = "<group>";
+	};
+	A000003A0000000000000002 /* VoxelForge */ = {
+		isa = PBXGroup;
+		children = (
+			A000010A0000000000000001 /* VoxelForgeApp.swift */,
+			A000010A0000000000000002 /* MainMenuView.swift */,
+			A000010A0000000000000003 /* GameView.swift */,
+			A000010A0000000000000004 /* BlockType.swift */,
+			A000010A0000000000000005 /* ChunkCoord.swift */,
+			A000010A0000000000000006 /* Chunk.swift */,
+			A000010A0000000000000007 /* World.swift */,
+			A000010A0000000000000008 /* ChunkMesh.swift */,
+			A000010A0000000000000009 /* ChunkMesher.swift */,
+			A000010A0000000000000010 /* Math.swift */,
+			A000010A0000000000000011 /* Player.swift */,
+			A000010A0000000000000012 /* GameState.swift */,
+			A000010A0000000000000013 /* Renderer.swift */,
+			A000010A0000000000000014 /* Shaders.metal */,
+			A000010A0000000000000015 /* Assets.xcassets */,
+			A000010A0000000000000016 /* Info.plist */,
+			A000010A0000000000000017 /* README.md */,
+		);
+		name = VoxelForge;
+		sourceTree = "<group>";
+	};
+	A000003A0000000000000003 /* Products */ = {
+		isa = PBXGroup;
+		children = (
+			A000000A0000000000000001 /* VoxelForge.app */,
+		);
+		name = Products;
+		sourceTree = "<group>";
+	};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+	A000000A0000000000000001 /* VoxelForge */ = {
+		isa = PBXNativeTarget;
+		buildConfigurationList = A000005A0000000000000002 /* Build configuration list for PBXNativeTarget "VoxelForge" */;
+		buildPhases = (
+			A000002A0000000000000002 /* Sources */,
+			A000002A0000000000000001 /* Frameworks */,
+			A000002A0000000000000003 /* Resources */,
+		);
+		buildRules = (
+		);
+		dependencies = (
+		);
+		name = VoxelForge;
+		productName = VoxelForge;
+		productReference = A000000A0000000000000001 /* VoxelForge.app */;
+		productType = "com.apple.product-type.application";
+	};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+	A000004A0000000000000001 /* Project object */ = {
+		isa = PBXProject;
+		attributes = {
+			BuildIndependentTargetsInParallel = 1;
+			LastSwiftUpdateCheck = 1600;
+			LastUpgradeCheck = 1600;
+			TargetAttributes = {
+				A000000A0000000000000001 = {
+					CreatedOnToolsVersion = 16.0;
+				};
+			};
+		};
+		buildConfigurationList = A000005A0000000000000001 /* Build configuration list for PBXProject "VoxelForge" */;
+		compatibilityVersion = "Xcode 14.0";
+		developmentRegion = en;
+		hasScannedForEncodings = 0;
+		knownRegions = (
+			en,
+			Base,
+		);
+		mainGroup = A000003A0000000000000001;
+		productRefGroup = A000003A0000000000000003 /* Products */;
+		projectDirPath = "";
+		projectRoot = "";
+		targets = (
+			A000000A0000000000000001 /* VoxelForge */,
+		);
+	};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+	A000002A0000000000000003 /* Resources */ = {
+		isa = PBXResourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			A000001A0000000000000015 /* Assets.xcassets in Resources */,
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+	A000002A0000000000000002 /* Sources */ = {
+		isa = PBXSourcesBuildPhase;
+		buildActionMask = 2147483647;
+		files = (
+			A000001A0000000000000001 /* VoxelForgeApp.swift in Sources */,
+			A000001A0000000000000002 /* MainMenuView.swift in Sources */,
+			A000001A0000000000000003 /* GameView.swift in Sources */,
+			A000001A0000000000000004 /* BlockType.swift in Sources */,
+			A000001A0000000000000005 /* ChunkCoord.swift in Sources */,
+			A000001A0000000000000006 /* Chunk.swift in Sources */,
+			A000001A0000000000000007 /* World.swift in Sources */,
+			A000001A0000000000000008 /* ChunkMesh.swift in Sources */,
+			A000001A0000000000000009 /* ChunkMesher.swift in Sources */,
+			A000001A0000000000000010 /* Math.swift in Sources */,
+			A000001A0000000000000011 /* Player.swift in Sources */,
+			A000001A0000000000000012 /* GameState.swift in Sources */,
+			A000001A0000000000000013 /* Renderer.swift in Sources */,
+			A000001A0000000000000014 /* Shaders.metal in Sources */,
+		);
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+	A000006A0000000000000001 /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = dwarf;
+			ENABLE_STRICT_OBJC_MSGSEND = YES;
+			ENABLE_TESTABILITY = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GCC_NO_COMMON_BLOCKS = YES;
+			GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+			GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+			GCC_WARN_UNDECLARED_SELECTOR = YES;
+			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+			GCC_WARN_UNUSED_FUNCTION = YES;
+			GCC_WARN_UNUSED_VARIABLE = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+			ONLY_ACTIVE_ARCH = YES;
+			SDKROOT = iphoneos;
+			SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		};
+		name = Debug;
+	};
+	A000006A0000000000000002 /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CLANG_ENABLE_OBJC_ARC = YES;
+			CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+			CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+			COPY_PHASE_STRIP = NO;
+			DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+			ENABLE_NS_ASSERTIONS = NO;
+			ENABLE_STRICT_OBJC_MSGSEND = YES;
+			GCC_C_LANGUAGE_STANDARD = gnu17;
+			GCC_NO_COMMON_BLOCKS = YES;
+			GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+			GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+			GCC_WARN_UNDECLARED_SELECTOR = YES;
+			GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+			GCC_WARN_UNUSED_FUNCTION = YES;
+			GCC_WARN_UNUSED_VARIABLE = YES;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			MTL_ENABLE_DEBUG_INFO = NO;
+			SDKROOT = iphoneos;
+			SWIFT_COMPILATION_MODE = wholemodule;
+			SWIFT_OPTIMIZATION_LEVEL = "-O";
+			VALIDATE_PRODUCT = YES;
+		};
+		name = Release;
+	};
+	A000006A0000000000000003 /* Debug */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_ASSET_PATHS = "";
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/Frameworks",
+			);
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.VoxelForge;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		};
+		name = Debug;
+	};
+	A000006A0000000000000004 /* Release */ = {
+		isa = XCBuildConfiguration;
+		buildSettings = {
+			ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+			CODE_SIGN_STYLE = Automatic;
+			CURRENT_PROJECT_VERSION = 1;
+			DEVELOPMENT_ASSET_PATHS = "";
+			DEVELOPMENT_TEAM = "";
+			ENABLE_PREVIEWS = YES;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = Info.plist;
+			LD_RUNPATH_SEARCH_PATHS = (
+				"$(inherited)",
+				"@executable_path/Frameworks",
+			);
+			MARKETING_VERSION = 1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.VoxelForge;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		};
+		name = Release;
+	};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+	A000005A0000000000000001 /* Build configuration list for PBXProject "VoxelForge" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			A000006A0000000000000001 /* Debug */,
+			A000006A0000000000000002 /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+	A000005A0000000000000002 /* Build configuration list for PBXNativeTarget "VoxelForge" */ = {
+		isa = XCConfigurationList;
+		buildConfigurations = (
+			A000006A0000000000000003 /* Debug */,
+			A000006A0000000000000004 /* Release */,
+		);
+		defaultConfigurationIsVisible = 0;
+		defaultConfigurationName = Release;
+	};
+/* End XCConfigurationList section */
+	};
+	rootObject = A000004A0000000000000001 /* Project object */;
+}
