@@ -99,7 +99,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-	A000000A0000000000000001 /* VoxelForge */ = {
+	A000000A0000000000000002 /* VoxelForge */ = {
 		isa = PBXNativeTarget;
 		buildConfigurationList = A000005A0000000000000002 /* Build configuration list for PBXNativeTarget "VoxelForge" */;
 		buildPhases = (
@@ -126,7 +126,7 @@
 			LastSwiftUpdateCheck = 1600;
 			LastUpgradeCheck = 1600;
 			TargetAttributes = {
-				A000000A0000000000000001 = {
+				A000000A0000000000000002 = {
 					CreatedOnToolsVersion = 16.0;
 				};
 			};
@@ -144,7 +144,7 @@
 		projectDirPath = "";
 		projectRoot = "";
 		targets = (
-			A000000A0000000000000001 /* VoxelForge */,
+			A000000A0000000000000002 /* VoxelForge */,
 		);
 	};
 /* End PBXProject section */
